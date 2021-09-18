@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <form action="">
+        <h1>Đăng ký thông tin</h1>
+        <div>
+
+            <label for="">User name:</label>
+            <input type="text">
+        </div>
+        <div>
+
+            <label for="">Password:</label>
+            <input type="text">
+        </div>
+        <div>
+
+            <label for="">Email:</label>
+            <input type="text">
+        </div>
+        <div>
+            Ngày sinh:
+            <label for="">ngày</label>
+            <select >
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                 <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                  <option value="">11</option>
+                  <option value="">12</option>
+                  <option value="">13</option>
+            </select>
+            <label for="">Tháng</label>
+            <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                 <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                  <option value="">11</option>
+                  <option value="">12</option>
+            </select>
+            <label for="">Năm</label>
+            <select name="
+            " id="">
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+
+                <option value="">2007</option>
+                 <option value="">2008</option>
+                  <option value="">2009</option>
+                  <option value="">2010</option>
+                  <option value="">2011</option>
+                  <option value="">2012</option>
+        </select>
+        </div>
+        <div>
+            Giới tính
+            <label for="">Nam:</label>
+            <input type="radio">
+            <label for="">Nữ</label>
+            <input type="radio">
+        </div>
+        <div>
+            <Label>Tỉnh/ Thành phố:</Label>
+            <select name="" id="">
+                <option value="">Hà Nội</option>
+                <option value="">TP Hồ Chí Minh</option>
+                <option value="">Đà Năng</option>
+
+            </select>
+        </div>
+        <div>
+            Sở thích:
+            <label for="">Thể thao:</label>
+            <input type="checkbox">
+            <label for="">Nghe nhạc:</label>
+            <input type="checkbox">
+            <label for="">Mua săm:</label>
+            <input type="checkbox">
+            <label for="">Du lịch:</label>
+            <input type="checkbox">
+        </div>
+        <div>
+            <p>Mô tả bản thân:</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+            <button>Reset</button>
+        </div>
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14911.680229206837!2d105.81825252875005!3d20.87527222730593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b2ff3c87e601%3A0x9a065e1f7cee203e!2zSGnhu4FuIEdpYW5nLCBUaMaw4budbmcgVMOtbiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1631891749153!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div>
+
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarvelvnfanpage%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108329331600019");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+</html>
