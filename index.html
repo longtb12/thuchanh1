@@ -5,27 +5,36 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
+    <style>
+        .padding-bottom-10{
+            padding-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="header-page">Menu</div>
+        <hr>
+
+    </header>
     <form action="">
         <h1>Đăng ký thông tin</h1>
-        <div>
+        <div class="padding-bottom-10">
 
             <label for="">User name:</label>
-            <input type="text">
+            <input type="text" placeholder="username">
         </div>
-        <div>
+        <div class="padding-bottom-10">
 
             <label for="">Password:</label>
-            <input type="text">
+            <input type="text" placeholder="password">
         </div>
-        <div>
+        <div class="padding-bottom-10">
 
             <label for="">Email:</label>
-            <input type="text">
+            <input type="text" placeholder="email">
         </div>
-        <div>
+        <div class="padding-bottom-10">
             Ngày sinh:
             <label for="">ngày</label>
             <select >
@@ -80,14 +89,14 @@
                   <option value="">2012</option>
         </select>
         </div>
-        <div>
+        <div class="padding-bottom-10">
             Giới tính
             <label for="">Nam:</label>
             <input type="radio">
             <label for="">Nữ</label>
             <input type="radio">
         </div>
-        <div>
+        <div class="padding-bottom-10">
             <Label>Tỉnh/ Thành phố:</Label>
             <select name="" id="">
                 <option value="">Hà Nội</option>
@@ -96,7 +105,7 @@
 
             </select>
         </div>
-        <div>
+        <div class="padding-bottom-10">
             Sở thích:
             <label for="">Thể thao:</label>
             <input type="checkbox">
@@ -107,11 +116,11 @@
             <label for="">Du lịch:</label>
             <input type="checkbox">
         </div>
-        <div>
+        <div class="padding-bottom-10">
             <p>Mô tả bản thân:</p>
             <textarea name="" id="" cols="30" rows="10"></textarea>
         </div>
-        <div>
+        <div class="padding-bottom-10">
             <button>Submit</button>
             <button>Reset</button>
         </div>
@@ -127,6 +136,13 @@
     <!-- Your Plugin chat code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
+
+<footer>
+    <div class="footer-page">
+        <hr>
+        <div class="text">footer</div>
+    </div>
+</footer>
 
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
